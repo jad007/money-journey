@@ -13,7 +13,7 @@ import groovy.json.JsonSlurper
 class Expenses {
 	List<Expenses> expenses
 
-	public static void main(String[] args) {
+	public static void oldMain(String[] args) {
 		assert args.size() == 1
 
 		def fileName = args[0]
